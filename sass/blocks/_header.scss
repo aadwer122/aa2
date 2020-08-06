@@ -1,0 +1,39 @@
+.header{ 
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+    }
+    &__logo {
+        margin: 15px 0;
+        width: 110px;
+        height: 70px;
+    }
+    &__link {
+        cursor: pointer;
+        img {
+            width: 100%;
+        }
+    }
+    &__call {
+        margin-top: 35px;
+        text-align: right;
+        width: 210px;
+        height: 43px;
+    
+    }
+    &__phone{
+        display: block;
+        line-height: 19px;
+        color: #5e5e5e;
+        font-size: 23px;
+        font-weight: 700;
+    }
+    &__recall { 
+        margin-top: 9px;
+        color: #5892a6;
+        font-size: 13.5px;
+        font-weight: 500;
+        text-decoration: underline;
+    }    
+}

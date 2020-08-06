@@ -1,0 +1,97 @@
+.comparison {
+    height: 522px;
+    padding: 60px 0 75px 0 ;
+    &__title {
+        margin: 0 auto;
+        width: 310px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        h2 {
+            color: #535353;
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 0;
+            line-height: 20px;
+            text-align: right;
+            margin-right: 60px;
+            &:nth-child(2) {
+                text-align: left;
+                margin-right: 0;
+                color: #68b0c9;
+            }
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 930px;
+        height: 290px;  
+        margin-top: 45px;
+        flex-wrap: wrap;
+        text-align: right;      
+    }
+    &__text {
+        width: 219px;
+        display: block;
+        color: #939393;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 17px;
+        &:nth-child(even){
+            color: #68b0c9; 
+            margin-right: 0;
+            margin-left: auto;
+            text-align: left;
+        }
+    }
+    &__item {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 322px;
+        margin-bottom: 27px;
+     
+    }
+    &__img {
+        position: absolute;
+        right: 0;           
+            &_1{
+                top: 5px;
+            }
+            &_2 {                
+                top: 5px;
+                left:0;
+            } 
+            &_3{
+                transform: rotate(-10deg);
+            }
+            &_4 {                
+                transform: rotate(10deg);
+                left:0;
+            } 
+            &_5{
+                top: -19px;
+                transform: rotate(-35deg);
+            }
+            &_6 {                
+                top: -19px;
+                transform: rotate(35deg);
+                left:0;
+            } 
+            &_7{
+                top: -27px;
+                transform: rotate(-43deg);
+            }
+            &_8 {                
+                top: -27px;
+                transform: rotate(43deg);
+                left:0;
+            }    
+    }
+    &__chairimg{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

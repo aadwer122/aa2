@@ -1,0 +1,116 @@
+.discount{
+    position: relative;
+    height: 490px;
+    padding: 70px 0 50px;
+    background: url(../img/second_bg.jpg) center (center/cover) no-repeat;
+    &__price {
+        position: absolute;
+        margin-left: 220px;
+        margin-top: 120px;
+        width: 257px;
+        height: 227px;
+        transform: translateX(43%);
+        img {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+    &__round {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #ffffff;
+        border-radius: 50%;
+        p {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 0;
+            color: #1e1e1e;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 17px;
+            text-decoration: line-through;
+        }
+        hr {
+            width: 120px;
+            border: solid #e8e8e8 1px;
+        }
+        span {
+            display: block;
+            margin: 0 auto;
+            color: #d04545;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 29px;
+        }
+    }
+    &__text {
+        margin-left: auto;
+        margin-right: 14px;
+        display: block;
+        width: 350px;
+        h2 {
+            margin-bottom: 0;
+            color: #535353;
+            font-weight: 900;
+            text-transform: uppercase;
+            font-size: 26px;
+            line-height: 43px;
+            span {
+                font-size: 54px;
+                line-height: 42px;
+                font-weight: 700;
+            }
+        }
+    }
+    &__present {
+        width: 162px;
+        margin-left: 76px;
+        color: #68b0c9;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 22px;
+        img {
+            margin-right: 8px;
+            width: 22px;
+            height: 20px;
+        }
+    }
+    .buy {
+        margin-left: auto;
+        margin-right: 56px;
+        margin-top: 50px;
+        width: 275px;
+        height: 200px;
+        border-radius: 23px;
+        border: 5px solid #ffffff;
+        &__stock {
+            margin: 0 auto;
+            margin-top: 37px;
+            width: 210px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #d35656;
+            font-size: 14px;
+            font-weight: 700;
+        }
+        &__date {
+            margin-left: 12px;
+            margin-right: 13px;
+            width: 48px;
+            height: 43px;
+            background: url(../icon/1450658253_calendar.png) center (center/cover) no-repeat;
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }   
+}

@@ -1,0 +1,38 @@
+.chairpanel{
+    padding: 70px 0;
+    height: 275px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+    &__item {
+        position: relative;
+        width: 150px;
+        height: 128px;
+        color: #535353;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 14px;
+        text-align: center;
+        span {
+            width: 147px;
+            position: absolute;
+            color: #68b0c9;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 36px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-100%);
+        }
+    }
+    &__image {
+        margin: 0 auto;
+        width: 80px;
+        height: 94px;
+        background:url(../img/chair_four.png) center (center/cover) no-repeat;
+        margin-bottom: 12px;
+
+    }
+}

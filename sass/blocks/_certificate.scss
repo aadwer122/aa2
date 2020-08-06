@@ -1,0 +1,56 @@
+.certificate{
+    height: 600px;
+    padding: 80px 0 90px;
+    position: relative;
+    background-image: linear-gradient(to bottom, #f9fbfd 0%, #ecf3f8 100%);
+    h2 {
+        text-align: center;
+        color: #535353;
+        line-height: 34px;
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    &__document {
+        position: absolute;
+        width: 230px;
+        height: 310px;
+        box-shadow: 0 4px 8px rgba(1, 1, 1, 0.15), inset 0 5px 18px rgba(1, 1, 1, 0.1);
+        border: 5px solid #484848;
+        margin-top: 82px;
+        margin-left: 112px;
+        img {
+            width: 100%;
+        }
+    }
+    &__text {
+        width: 390px;
+        margin-left: auto;
+        margin-right: 70px;
+        margin-top: 82px;
+        text-align: left;
+        p {
+            color: #323232;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: left;
+            line-height: 21.5px;
+            margin-bottom: 0;
+        }
+    }
+    &__pretext {
+        height: 47px;
+        color: #68b0c9;
+        line-height: 20px;
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 49px;
+        img {
+            display: block;
+            float: left;
+            margin-right: 11px;
+            width: 48px;
+            height: 41px;
+        }
+    }
+}
